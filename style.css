@@ -1,0 +1,21 @@
+header{
+    display: flex;
+    justify-content: space-between;
+}
+ul , a{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px 15px 0px;
+    margin: 0px 30px 0px 0px;
+}
+.Div3{
+    display: flex;
+    justify-content: center;
+}
