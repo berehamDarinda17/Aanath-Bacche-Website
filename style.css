@@ -1,21 +1,49 @@
-header{
+header {
     display: flex;
     justify-content: space-between;
+    background-color: teal;
+    border-radius: 14px;
+    border: 3px solid black
 }
-ul , a{
+
+.H1I {
+    height: 80px;
+    width: 80px;
+    margin: 0px -120px 0px 15px;
+}
+
+h2 {
+    font-family: monospace;
+    font-weight: 900;
+    text-decoration: underline;
+}
+h1 {
+    padding: 0px 517px 0px 0px;
+}
+
+ul,
+a {
+    color: black;
     text-decoration: none;
     list-style: none;
     display: flex;
     gap: 40px;
 }
-nav{
+
+ul :hover {
+    color: beige;
+}
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 20px 15px 0px;
     margin: 0px 30px 0px 0px;
 }
-.Div3{
+
+.Div3 {
     display: flex;
-    justify-content: center;
+    margin: 2px;
+    padding: 2px;
 }
